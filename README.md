@@ -1,7 +1,6 @@
 # gotogether
 
 # GoTogether (Java, Firebase, Google Maps)
-
 ---
 
 ## Project overview
