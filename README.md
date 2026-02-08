@@ -4,7 +4,7 @@
 --- 
   
 ## Project overview
-
+ 
 A complete Android (Java) student project implementing a carpool ride sharing app using Firebase Realtime Database / Authentication and Google Maps. This repository contains all essential Java source files, XML layouts, `AndroidManifest.xml`, and `build.gradle` snippets required to run the app locally in Android Studio.
 
 > Important: Add your `google-services.json` file (Firebase) and enable Google Maps API in the Google Cloud Console. Replace `YOUR_GOOGLE_MAPS_API_KEY` in the manifest and `build.gradle` / resources where needed.
