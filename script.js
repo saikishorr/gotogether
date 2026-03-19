@@ -25,7 +25,7 @@ async function detectPublicIP() {
 
 try {
   const res = await fetch("https://api.ipify.org?format=json", {
-    cache: "no-store"
+    mode:"cors"
   });
 
   if (!res.ok) throw new Error();
