@@ -1,0 +1,22 @@
+{
+  "name": "ChitLAN",
+  "short_name": "ChitLAN",
+  "description": "Secure LAN chat and file sharing without servers",
+  "start_url": "./app.html",
+  "display": "standalone",
+  "background_color": "#121212",
+  "theme_color": "#007bff",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "Designer-logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "Designer-logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
