@@ -11,3 +11,11 @@
     "electron": "^28.0.0"
   }
 }
+{
+  "scripts": {
+    "tauri:build": "tauri build"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^1.5.0"
+  }
+}
