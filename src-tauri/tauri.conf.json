@@ -1,0 +1,27 @@
+{
+  "package": {
+    "productName": "ChitLAN",
+    "version": "1.0.0"
+  },
+  "build": {
+    "beforeBuildCommand": "",
+    "beforeDevCommand": "",
+    "devPath": "../",
+    "distDir": "../"
+  },
+  "tauri": {
+    "windows": [
+      {
+        "title": "ChitLAN",
+        "width": 1000,
+        "height": 700
+      }
+    ],
+    "bundle": {
+      "active": true,
+      "targets": ["nsis"],
+      "identifier": "com.chitlan.app",
+      "icon": ["./Designer-logo.png"]
+    }
+  }
+}
