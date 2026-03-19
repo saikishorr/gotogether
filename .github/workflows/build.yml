@@ -1,0 +1,29 @@
+name: Build Electron App
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Install Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build app
+        run: npx electron-packager . ChitLAN --platform=win32 --arch=x64 --overwrite
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ChitLAN-build
+          path: ChitLAN-win32-x64
