@@ -20,7 +20,7 @@
       "active": true,
       "targets": ["nsis"],
       "identifier": "com.chitlan.app",
-      "icon": ["icons/Designer-logo.png"]
+      "icon": ["./icons/Designer-logo.png"]
     }
   }
 }
